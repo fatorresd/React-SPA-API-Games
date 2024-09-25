@@ -1,8 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# SPA (Single - Page - Aplication) with React, Libraries: React Bootstrap and React Routes
+SPA connected to the RAWG.io video game API, developed in React. It uses hooks (useState, useEffect) and React Router to manage routes. It displays interactive video game data, providing a dynamic experience for users.
