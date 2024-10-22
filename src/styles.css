@@ -1,0 +1,28 @@
+/* Estilos adicionales */
+.object-fit-cover {
+    object-fit: cover;
+  }
+  
+  /* Animación para hover en botones */
+  .btn {
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Animación para la carga de imágenes */
+  .card-img {
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-img:hover {
+    opacity: 0.9;
+  }
+  
+  h1 {
+    color: #150d45;
+    font-family: 'Press Start 2P', cursive; /* Cambia esto por una fuente de estilo gamer */
+  }
+  

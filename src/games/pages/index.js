@@ -5,4 +5,6 @@ export * from "./RockstarPage";
 export * from "./ValvePage";
 export * from "./SearchPage";
 export * from "./Game";
-export * from './GameListConnect'; // Export por defecto
+export * from "./GameListConnect";
+//Publisher data
+export * from './PublisherTest'; // Export por defecto

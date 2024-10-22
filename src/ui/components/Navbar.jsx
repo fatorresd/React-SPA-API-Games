@@ -72,6 +72,15 @@ export const Navbar = () => {
               </NavLink>
             </li>
 
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive }) => activeClass().validateClassName(isActive)}
+                to="/search"
+              >
+                Search
+              </NavLink>
+            </li>
+
             <DropdownComponent /> {/* Usando el componente Dropdown aquí */}
 
             <li className="nav-item">
