@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from '../../ui';
-import { ValvePage, RockstarPage, CdProjectPage, GotyGames, SearchPage, Game, PublisherTest, GamesListConnect} from '../../games';
+import { ValvePage, RockstarPage, CdProjectPage, SearchPage, Game, GamesListConnect} from '../../games';
 
 export const GamesRoutes = () => {
   return (

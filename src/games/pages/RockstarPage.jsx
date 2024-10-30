@@ -9,7 +9,7 @@ export const RockstarPage = () => {
       <Container className="text-center mt-4">
       <h1 className="gamer-title">Explora el Universo de Rockstar: Innovación en Jugabilidad</h1>
       <hr />
-      <PublisherDetails publisher='rockstar-games'/>
+      <PublisherDetails publisher='Rockstar Games'/>
       </Container>
 
 
