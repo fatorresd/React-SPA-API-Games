@@ -7,7 +7,7 @@ export const ValvePage = () => {
     <Container className="text-center mt-4">
       <h1 className="gamer-title">Explora el Universo de Valve: Innovación en Videojuegos</h1>
       <hr />
-      <PublisherDetails publisher='valve'/>
+      <PublisherDetails publisher='Valve'/>
     </Container>
   );
 }

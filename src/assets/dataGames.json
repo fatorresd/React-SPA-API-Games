@@ -1,0 +1,219 @@
+{
+    "Rockstar Games": [
+      {
+        "id": 1,
+        "name": "Grand Theft Auto V",
+        "release_year": 2013,
+        "genre": "Action-adventure",
+        "platforms": ["PC", "PlayStation 3", "PlayStation 4", "PlayStation 5", "Xbox 360", "Xbox One", "Xbox Series X/S"]
+      },
+      {
+        "id": 2,
+        "name": "Red Dead Redemption 2",
+        "release_year": 2018,
+        "genre": "Action-adventure",
+        "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"]
+      },
+      {
+        "id": 3,
+        "name": "L.A. Noire",
+        "release_year": 2011,
+        "genre": "Adventure",
+        "platforms": ["PC", "PlayStation 3", "PlayStation 4", "Xbox 360", "Xbox One", "Nintendo Switch"]
+      },
+      {
+        "id": 4,
+        "name": "Bully: Scholarship Edition",
+        "release_year": 2008,
+        "genre": "Action-adventure",
+        "platforms": ["PC", "PlayStation 2", "Xbox 360", "Nintendo Wii"]
+      },
+      {
+        "id": 5,
+        "name": "Max Payne 3",
+        "release_year": 2012,
+        "genre": "Third-person shooter",
+        "platforms": ["PC", "PlayStation 3", "Xbox 360"]
+      },
+      {
+        "id": 6,
+        "name": "Grand Theft Auto: San Andreas",
+        "release_year": 2004,
+        "genre": "Action-adventure",
+        "platforms": ["PC", "PlayStation 2", "PlayStation 3", "PlayStation 4", "Xbox", "Xbox 360", "Xbox One", "Mobile"]
+      },
+      {
+        "id": 7,
+        "name": "Manhunt",
+        "release_year": 2003,
+        "genre": "Horror",
+        "platforms": ["PC", "PlayStation 2", "Xbox"]
+      },
+      {
+        "id": 8,
+        "name": "The Warriors",
+        "release_year": 2005,
+        "genre": "Beat 'em up",
+        "platforms": ["PlayStation 2", "Xbox", "PlayStation Portable"]
+      },
+      {
+        "id": 9,
+        "name": "Red Dead Redemption",
+        "release_year": 2010,
+        "genre": "Action-adventure",
+        "platforms": ["PlayStation 3", "Xbox 360", "PlayStation 4", "Nintendo Switch"]
+      },
+      {
+        "id": 10,
+        "name": "Grand Theft Auto IV",
+        "release_year": 2008,
+        "genre": "Action-adventure",
+        "platforms": ["PC", "PlayStation 3", "Xbox 360"]
+      }
+    ],
+    "CD Projekt": [
+      {
+        "id": 11,
+        "name": "The Witcher 3: Wild Hunt",
+        "release_year": 2015,
+        "genre": "Action RPG",
+        "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"]
+      },
+      {
+        "id": 12,
+        "name": "Cyberpunk 2077",
+        "release_year": 2020,
+        "genre": "Action RPG",
+        "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"]
+      },
+      {
+        "id": 13,
+        "name": "Thronebreaker: The Witcher Tales",
+        "release_year": 2018,
+        "genre": "Card game/RPG",
+        "platforms": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch", "iOS"]
+      },
+      {
+        "id": 14,
+        "name": "The Witcher 2: Assassins of Kings",
+        "release_year": 2011,
+        "genre": "Action RPG",
+        "platforms": ["PC", "Xbox 360"]
+      },
+      {
+        "id": 15,
+        "name": "The Witcher",
+        "release_year": 2007,
+        "genre": "Action RPG",
+        "platforms": ["PC"]
+      },
+      {
+        "id": 16,
+        "name": "Gwent: The Witcher Card Game",
+        "release_year": 2018,
+        "genre": "Card game",
+        "platforms": ["PC", "PlayStation 4", "Xbox One", "iOS", "Android"]
+      },
+      {
+        "id": 17,
+        "name": "The Witcher Adventure Game",
+        "release_year": 2014,
+        "genre": "Digital board game",
+        "platforms": ["PC", "iOS", "Android"]
+      },
+      {
+        "id": 18,
+        "name": "Gwent: Rogue Mage",
+        "release_year": 2022,
+        "genre": "Deck-builder/RPG",
+        "platforms": ["PC", "iOS", "Android"]
+      },
+      {
+        "id": 19,
+        "name": "The Witcher 3: Wild Hunt - Hearts of Stone",
+        "release_year": 2015,
+        "genre": "Expansion",
+        "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"]
+      },
+      {
+        "id": 20,
+        "name": "The Witcher 3: Wild Hunt - Blood and Wine",
+        "release_year": 2016,
+        "genre": "Expansion",
+        "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"]
+      }
+    ],
+    "Valve": [
+      {
+        "id": 21,
+        "name": "Half-Life 2",
+        "release_year": 2004,
+        "genre": "First-person shooter",
+        "platforms": ["PC", "Xbox", "Xbox 360", "PlayStation 3"]
+      },
+      {
+        "id": 22,
+        "name": "Portal 2",
+        "release_year": 2011,
+        "genre": "Puzzle-platformer",
+        "platforms": ["PC", "PlayStation 3", "Xbox 360"]
+      },
+      {
+        "id": 23,
+        "name": "Counter-Strike: Global Offensive",
+        "release_year": 2012,
+        "genre": "First-person shooter",
+        "platforms": ["PC", "PlayStation 3", "Xbox 360"]
+      },
+      {
+        "id": 24,
+        "name": "Dota 2",
+        "release_year": 2013,
+        "genre": "MOBA",
+        "platforms": ["PC"]
+      },
+      {
+        "id": 25,
+        "name": "Left 4 Dead 2",
+        "release_year": 2009,
+        "genre": "First-person shooter",
+        "platforms": ["PC", "Xbox 360"]
+      },
+      {
+        "id": 26,
+        "name": "Team Fortress 2",
+        "release_year": 2007,
+        "genre": "First-person shooter",
+        "platforms": ["PC", "PlayStation 3", "Xbox 360"]
+      },
+      {
+        "id": 27,
+        "name": "Half-Life: Alyx",
+        "release_year": 2020,
+        "genre": "VR first-person shooter",
+        "platforms": ["PC (VR)"]
+      },
+      {
+        "id": 28,
+        "name": "Portal",
+        "release_year": 2007,
+        "genre": "Puzzle-platformer",
+        "platforms": ["PC", "PlayStation 3", "Xbox 360"]
+      },
+      {
+        "id": 29,
+        "name": "The Orange Box",
+        "release_year": 2007,
+        "genre": "Compilation",
+        "platforms": ["PC", "PlayStation 3", "Xbox 360"]
+      },
+      {
+        "id": 30,
+        "name": "Day of Defeat: Source",
+        "release_year": 2005,
+        "genre": "First-person shooter",
+        "platforms": ["PC"]
+      }
+    ]
+  }
+  
