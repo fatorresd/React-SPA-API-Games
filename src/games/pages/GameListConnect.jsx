@@ -1,4 +1,5 @@
 import { useGamesExport } from "../hooks/useGamesExport";
+import { downloadJson } from "../functions/downloadJson"; // Importa la función downloadJson
 import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner'; // Importa el Spinner
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -15,7 +16,7 @@ export const GamesListConnect = () => {
       <Button 
         className="btn btn-success mb-4"
         variant="Success" 
-        // onClick={() => downloadJson(games)} // Reactiva la descarga del JSON
+        onClick={() => downloadJson(gamesInfo)} // Reactiva la descarga del JSON
       >
         Descargar Juegos
       </Button>
