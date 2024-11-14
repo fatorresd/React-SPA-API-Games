@@ -1,5 +1,3 @@
-
-
 export const getGamesById = (games, id) => {
     // checkea si games es un array, si no lo es retorna null
     if (!games || !Array.isArray(games)) return null;

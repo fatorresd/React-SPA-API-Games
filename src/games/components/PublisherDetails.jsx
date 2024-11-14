@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import { GameCard } from "./GameCard";
+import { GameCard } from "../components/GameCard"; // Importando el componente GameCard
 import dataGames from "../../assets/dataGames.json"; // Importando la data de los juegos
-import { Container, Spinner } from 'react-bootstrap';
+// import { Container, Spinner } from 'react-bootstrap';
 
 export const PublisherDetails = ({ publisher }) => {
   const games = dataGames[publisher]; // Accediendo directamente a los juegos del publisher
