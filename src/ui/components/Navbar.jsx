@@ -1,16 +1,18 @@
-import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { DropdownComponent } from './Customdropdown.jsx'; // Importando el componente Dropdown
-import GameIcon from '../../assets/images/GameIcon.png';
-import { activeClass } from '../customfunctions/activeClass.js'; // Importando la función de validación de clase activa
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import { DropdownComponent } from "./Customdropdown.jsx"; // Importando el componente Dropdown
+import GameIcon from "../../assets/images/GameIcon.png";
+import { activeClass } from "../customfunctions/activeClass.js"; // Importando la función de validación de clase activa
+
+import { useContext } from "react";
+import { AuthContext } from "../../auth/context/AuthContext";
 
 export const Navbar = () => {
-
+  const { user, logout} = useContext(AuthContext);
   const navigate = useNavigate();
-  
-  const onLogout = () => {
-    navigate('/login', { replace: true });
-  }
 
+  const onLogout = () => {
+    logout(navigate);
+  };
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
@@ -41,7 +43,9 @@ export const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 //className verifica si la ruta está activa y agrega la clase 'active'
-                className={({ isActive }) => activeClass().validateClassName(isActive)}
+                className={({ isActive }) =>
+                  activeClass().validateClassName(isActive)
+                }
                 to="/"
               >
                 Goty Games
@@ -49,7 +53,9 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                className={({ isActive }) => activeClass().validateClassName(isActive)}
+                className={({ isActive }) =>
+                  activeClass().validateClassName(isActive)
+                }
                 to="/valve"
               >
                 Valve
@@ -57,7 +63,9 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                className={({ isActive }) => activeClass().validateClassName(isActive)}
+                className={({ isActive }) =>
+                  activeClass().validateClassName(isActive)
+                }
                 to="/rockstar"
               >
                 Rockstar games
@@ -65,33 +73,31 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                className={({ isActive }) => activeClass().validateClassName(isActive)}
+                className={({ isActive }) =>
+                  activeClass().validateClassName(isActive)
+                }
                 to="/cdproject"
               >
                 CD Projekt Red
               </NavLink>
             </li>
-
             <li className="nav-item">
               <NavLink
-                className={({ isActive }) => activeClass().validateClassName(isActive)}
+                className={({ isActive }) =>
+                  activeClass().validateClassName(isActive)
+                }
                 to="/search"
               >
                 Search
               </NavLink>
             </li>
-
             <DropdownComponent /> {/* Usando el componente Dropdown aquí */}
-
+            <span className="nav-item nav-link text-primary">{user?.name}</span>
             <li className="nav-item">
-              <button
-                className="btn btn-primary ms-3" 
-                onClick={ onLogout }
-                >
+              <button className="btn btn-primary ms-3" onClick={onLogout}>
                 Log out
               </button>
             </li>
-
           </ul>
         </div>
       </div>

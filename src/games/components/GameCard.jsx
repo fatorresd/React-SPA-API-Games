@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types'; // Importar PropTypes
 import 'animate.css'; // Importar Animate.css
 import dataGames from "../../assets/dataGames.json"; 
+import '/Users/fatorresdz/Desktop/FullStack-Ruta/React/Git-Projects/React-games-spa/src/GameCard.css';
 
 // Componente para el encabezado del juego
 export const GameHeader = ({ name, background_image }) => (
@@ -25,25 +26,25 @@ export const GameCard = ({ id, name, background_image }) => {
     <Col className="mb-4">
       <Link to={`/games/${id}`} style={{ textDecoration: 'none' }}>
         <Card 
-          className={`animate__animated ${isHovered ? 'animate__pulse' : 'animate__fadeIn'}`}
-          style={{ 
-            width: '18rem', 
-            borderRadius: '15px', 
-            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-            transform: isHovered ? 'scale(1.05)' : 'scale(1)',
-            transition: 'transform 0.3s ease'
-          }}
+          className={`game-card animate__animated ${isHovered ? 'animate__pulse' : 'animate__fadeIn'}`}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          <Card.Body>
-            <GameHeader name={name} background_image={background_image} />
-          </Card.Body>
+          <div 
+            className="game-card-bg" 
+            style={{ backgroundImage: `url(${background_image})` }}
+          >
+            <div className="game-card-overlay">
+              <Card.Body className="game-card-body">
+                <Card.Title className="game-card-title">{name}</Card.Title>
+              </Card.Body>
+            </div>
+          </div>
         </Card>
       </Link>
     </Col>
   );
-}
+};
 
 // Componente para renderizar la lista de tarjetas de juegos
 export const GameCardList = ({ games }) => (
